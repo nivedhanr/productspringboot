@@ -22,7 +22,7 @@ public class Productcontroller {
     public String Productedit(){
         return "welcome to edit page";
     }
-    @GetMapping("/viewall")
+    @GetMapping("/view")
     public String View(){
         return "view product";
     }
