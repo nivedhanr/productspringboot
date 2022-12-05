@@ -22,8 +22,12 @@ public class Productcontroller {
     public String Productedit(){
         return "welcome to edit page";
     }
-    @GetMapping("/viewa")
+    @GetMapping("/viewall")
     public String View(){
         return "view product";
+    }
+    @PostMapping("/delete")
+    public String Delete(){
+        return "delete product";
     }
 }
